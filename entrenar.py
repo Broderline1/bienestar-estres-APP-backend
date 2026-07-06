@@ -6,7 +6,7 @@ Este script hace 4 cosas, en orden:
 4. Entrena un modelo de REGRESION (predice la calidad de sueño, un número)
 5. Guarda ambos modelos en archivos .pkl para usarlos despues en la API
 
-Corre esto con: python3 entrenar.py
+Corre esto con: python entrenar.py
 """
 import pandas as pd
 import joblib

@@ -2,12 +2,12 @@
 Este archivo NO entrena nada. Solo sirve para "asomarnos" a los datos
 y ver qué tenemos, antes de construir los modelos.
 
-Corre esto con: python3 explorar.py
+Corre esto con: python explorar.py
 """
 import pandas as pd
 
 # Cargamos el CSV (como si abrieras un Excel, pero en código)
-df = pd.read_csv("data/sleep_health_and_lifestyle.csv")
+df = pd.read_csv("data/sleep_health_and_lifestyle_dataset.csv")
 
 print("=" * 50)
 print("1) Las primeras 5 filas (para ver cómo se ve la tabla)")
